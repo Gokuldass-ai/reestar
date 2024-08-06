@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+li{
+    display: inline;
+    color: gray;
+}
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+    width: 220px;
+    
+}
+.products{
+    text-align: center;
+    margin: 30px;
+    background-color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+.contact{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+form{
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */ 
+    display: grid;
+    place-content: center;
+}
+
+
